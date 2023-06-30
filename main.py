@@ -17,7 +17,7 @@ engine.setProperty('rate', 125)  # setting up new voice rate
 voices = engine.getProperty('voices') #getting details of current voice
 engine.setProperty('voice', voices[1].id) #changing index, changes voices. 1 for female
 
-names = ['etienne selemani', 'junior shindano', 'franck tshiela', 'roger', 'enoch', 'mardochée']
+names = ['etienne selemani', 'Becky', 'junior shindano', 'franck tshiela', 'enoch', 'mardochée', 'dorcas']
 def reader_name(nameList):
     for name in nameList:
         engine.say(name)
